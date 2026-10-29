@@ -1,0 +1,14 @@
+# OS / editors
+.DS_Store
+.idea/
+*.swp
+
+# Secrets: never commit real credentials (see backend/.env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local agent scratch space
+.superpowers/
