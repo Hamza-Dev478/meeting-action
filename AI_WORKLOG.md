@@ -38,6 +38,8 @@ Details and commands: [EVALUATION.md](EVALUATION.md). Code: commits `eee3578` (A
 
 - **Prompt excerpt (developer):**
   > "Read the /Users/mac/Documents/Projects/ai-fullstack-builder-challenge and see what we have to impplement in this project. mmake sure to follow the instruction and build aa fully functional and profesional project … download all required dependency or tools"
+
+  *In short (paraphrase, not a quote):* build the whole exercise as the brief specifies, and install whatever tooling it needs.
 - **Context gathered:** the exercise documents and fixtures. The toolchain: Ruby 3.0.5 default with 3.3.6 available, PostgreSQL 14 running, Flutter missing, an iOS 18.4 simulator. No `ANTHROPIC_API_KEY`. About 15 GB of free disk.
 - **Response excerpt (plan, "Decisions"):**
   > "Single in-flight run: partial unique index on `suggestion_generations(meeting_id) WHERE status = 'running'` … A concurrent request gets `409 generation_in_progress`."
@@ -90,6 +92,14 @@ Each was found by the developer reviewing the running app, or by an end-to-end c
 | Developer, simulator | The Undo snack bar never closed. Flutter keeps snack bars with an action open by default | 5 s timeout, still persistent with a screen reader; test failed then passed |
 | Developer, simulator | Meeting list full of "Live journey 1793…" rows created by the agent's own live test runs | Realistic seed data, readable live-test names, `db:seed:replant` documented |
 | Agent, own diagnosis | A wrong guess that the white launch screen came from image size; the real cause was the simulator's launch-screen cache | Restart confirmed it; the misleading code comment was corrected |
+
+The developer's reports, word for word, each sent with a simulator screenshot:
+
+> "fix top navbar, open, completed and All should be in centered vertically"
+
+> "That marked open notification is not going away, until I click at undo, it that expected behaviour or what?"
+
+> "Update meetings names and content properly, currently meeting names are really odd, these should be meangfull, also add a bit more seed data"
 
 ## Post-core work (disclosed separately)
 
