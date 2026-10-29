@@ -21,7 +21,7 @@ Details and commands: [EVALUATION.md](EVALUATION.md). Code: commits `eee3578` (A
 - **Active work time:**
   - Core build: about 80 minutes of agent time on 2026-10-29, 19:30–20:50 PKT. That excludes about 10 minutes stopped on a full disk.
   - Post-core work on 2026-10-30: about 3 h 50 min of agent time, including the second-machine setup, itemised [below](#post-core-work-disclosed-separately).
-  - **Developer's own review and testing time:** about 1 hour (the developer's estimate). That covers checking the plan and results, testing the app in the simulator, and the steps only the developer could do: Homebrew, Xcode setup, the API key and the GitHub login.
+  - **Developer's own review and testing time:** about 2 hours (the developer's estimate). That covers checking the plan and results, testing the app in the simulator, and the steps only the developer could do: Homebrew, Xcode setup, the API key and the GitHub login.
 - **Setup time:** about 15 minutes on the first machine (Flutter SDK, Rails 8.1.4 on Ruby 3.3.6) plus about 10 minutes freeing disk space. About 40 minutes on the second machine, counted in the post-core time.
 - **Provider usage and cost:** no real-provider calls during the core build (no key). On 2026-10-30: 6 Opus calls (one evaluation run with 5 real cases, one rolled-back check on loosely written notes). Cost not measured. Claude Code session usage: unavailable.
 - **Scaffolds and reused code:**
