@@ -1,0 +1,13 @@
+# Native launch screen: the app's backdrop with the orb, shown by the OS while
+# Flutter starts and replaced by the first frame (no added delay).
+# Images come from tool/generate_brand_assets.dart.
+#   dart run flutter_native_splash:create
+flutter_native_splash:
+  background_image: assets/branding/splash_background.png
+  background_image_dark: assets/branding/splash_background_dark.png
+  image: assets/branding/splash_logo.png
+  android_12:
+    image: assets/branding/splash_logo_android12.png
+    color: "#EEF0FF"
+    color_dark: "#0B0D1C"
+  web: false

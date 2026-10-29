@@ -1,0 +1,8 @@
+# App icon, generated from assets/branding/app_icon.png (see tool/generate_brand_assets.dart).
+#   dart run flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: assets/branding/app_icon.png
+  ios: true
+  remove_alpha_ios: true
+  android: true
+  min_sdk_android: 21
