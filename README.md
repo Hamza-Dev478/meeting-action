@@ -18,7 +18,7 @@ A team member pastes meeting notes into a Flutter app. A Rails API asks an AI pr
 | Live Flutter UI → Rails → PostgreSQL journey (headless, real HTTP) | Passed |
 | Evaluation fixtures, fake provider | 7/7 pass (pipeline only, not extraction quality) |
 | Evaluation fixtures, real provider (Anthropic) | 5/5 real cases pass with `claude-opus-5-5`, about 3–4 s per call (2026-10-30) |
-| App running on the iOS simulator | Builds, installs and launches on the iOS 27.1 simulator (Xcode 27.1); the sign-in screen loads the seeded users from the live API. A full tap-through of the demo journey on the simulator is not yet recorded |
+| App running on the iOS simulator | Builds, installs and launches on the iOS 27.1 simulator (Xcode 27.1); the sign-in screen loads the seeded users from the live API. The demo video (about 3 minutes, shared privately with the submission) shows the journey on the iPhone 18 Pro simulator |
 | RuboCop, Brakeman, `flutter analyze` | Clean |
 
 ## Requirements
@@ -154,7 +154,7 @@ cd mobile && flutter test test/live_backend_test.dart --dart-define=LIVE_API_BAS
 ## Known gaps
 
 - The real Anthropic adapter was checked on 5 evaluation cases and one extra note only. Short notes take 3–5 s against a 25 s timeout with one retry; long notes on a model that always thinks are unmeasured and may exceed it.
-- The demo video hasn't been recorded, and the full journey hasn't been tapped through on the simulator yet (the app does build and launch there); see the Status table.
+- The demo video is shared privately with the submission rather than stored in this public repository.
 - The Liquid Glass UI was added after the core build. It is checked by the widget tests and the live journey, and visually on the simulator's sign-in screen only; dark mode, Android, and frame times with many blurred surfaces have not been checked.
 - The meeting list has no pagination, and there is no rate limiting on generation.
 - Dev sign-in issues one token per user. Signing in as the same user elsewhere, for example with the curl example or the live test, signs out the app.
