@@ -1,0 +1,37 @@
+acme_checklist:
+  meeting: acme_launch
+  suggestion_generation: acme_launch_run
+  status: pending
+  description: Send the launch checklist
+  owner: Maya
+  due_date: 2027-02-12
+  source_quote: Maya will send the launch checklist by 2027-02-12.
+  position: 0
+
+acme_room:
+  meeting: acme_launch
+  suggestion_generation: acme_launch_run
+  status: pending
+  description: Book the review room
+  owner: Leo
+  due_date: 2027-02-15
+  source_quote: Leo will book the review room by 2027-02-15.
+  position: 1
+
+globex_agenda:
+  meeting: globex_sync
+  suggestion_generation: globex_sync_run
+  status: pending
+  description: Send the agenda
+  owner: Nina
+  due_date: 2027-03-04
+  source_quote: Nina will send the agenda by 2027-03-04.
+  position: 0
+
+globex_style_guide:
+  meeting: globex_sync
+  suggestion_generation: globex_sync_run
+  status: accepted
+  description: Refresh the style guide
+  source_quote: "Decision: refresh the style guide."
+  position: 1

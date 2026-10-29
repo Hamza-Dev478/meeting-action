@@ -1,0 +1,14 @@
+maya:
+  organization: acme
+  name: Maya Chen
+  email: maya@acme.test
+
+leo:
+  organization: acme
+  name: Leo Park
+  email: leo@acme.test
+
+nina:
+  organization: globex
+  name: Nina Patel
+  email: nina@globex.test

@@ -1,0 +1,6 @@
+globex_style_guide_action:
+  meeting: globex_sync
+  suggestion: globex_style_guide
+  accepted_by: nina
+  description: Refresh the style guide
+  source_quote: "Decision: refresh the style guide."

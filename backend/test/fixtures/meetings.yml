@@ -1,0 +1,11 @@
+acme_launch:
+  organization: acme
+  author: maya
+  title: Launch planning
+  notes: "Maya will send the launch checklist by 2027-02-12. Leo will book the review room by 2027-02-15. The team also discussed the new logo without deciding anything."
+
+globex_sync:
+  organization: globex
+  author: nina
+  title: Weekly sync
+  notes: "Nina will send the agenda by 2027-03-04. Decision: refresh the style guide."

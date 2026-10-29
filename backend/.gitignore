@@ -1,0 +1,21 @@
+# Environment and secrets
+/.env
+/.env.*
+!/.env.example
+/config/master.key
+/config/credentials/*.key
+
+# Logs, temp files, pids, eval run output
+/log/*
+!/log/.keep
+/tmp/*
+!/tmp/.keep
+!/tmp/pids/
+/tmp/pids/*
+!/tmp/pids/.keep
+
+/storage/*
+!/storage/.keep
+/public/assets
+/.byebug_history
+/coverage/
